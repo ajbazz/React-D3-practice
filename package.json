@@ -79,8 +79,9 @@
     "react"
   ],
   "author": "Joshua Bence",
-  "license": "MIT",
+  "license": "ISC",
   "dependencies": {
+    "angular-dragdrop": "^1.0.13",
     "babel-cli": "^6.5.1",
     "babel-core": "^6.3.17",
     "babel-loader": "^6.2.0",
@@ -95,6 +96,7 @@
     "better-npm-run": "0.0.8",
     "css-loader": "^0.23.0",
     "cssnano": "^3.3.2",
+    "d3": "^3.5.17",
     "debug": "^2.2.0",
     "extract-text-webpack-plugin": "^1.0.0",
     "file-loader": "^0.8.4",
@@ -112,6 +114,7 @@
     "node-sass": "^3.7.0",
     "normalize.css": "^4.1.1",
     "postcss-loader": "^0.9.0",
+    "rd3": "^0.7.4",
     "react": "^15.0.0",
     "react-dom": "^15.0.0",
     "react-redux": "^4.0.0",
@@ -158,7 +161,6 @@
     "webpack-dev-middleware": "^1.6.1",
     "webpack-hot-middleware": "^2.6.0"
   },
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/jdbence/frontend-assignment/issues"
   },

@@ -1,14 +1,10 @@
 import React from 'react'
-import DuckImage from '../assets/Duck.jpg'
+import Grid from 'components/Grid'
 import classes from './HomeView.scss'
 
 export const HomeView = () => (
   <div>
-    <h4>Welcome!</h4>
-    <img
-      alt='This is a duck, because Redux!'
-      className={classes.duck}
-      src={DuckImage} />
+    <Grid cols="10" rows="10" />
   </div>
 )
 
